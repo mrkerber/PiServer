@@ -1,0 +1,48 @@
+<!DOCTYPE html5>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title>Test</title>
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>My Website</h1>
+
+    <p>This is my first website</p>
+
+
+	<form id="submission">
+	  Type of Media:
+	  <select name="Media">
+		<option value="book">Book</option>
+		<option value="film">Film</option>
+		<option value="album">Album</option>
+	  </select>
+	  <br>
+
+	  Title:
+	  <input type="text" name="title">
+<br>
+	  Artist:
+	  <input type="text" name="artist">
+<br>
+	  Date:
+	  <input type="date" name="date">
+<br>
+	  Genre:
+	  <input type="text" name="genre">
+<br>
+	  Rating: <div id="ratingValue">_</div>
+	  <input type="range" name="rating" min="0" max="10" step="1" id="ratingSlider">
+<br>
+
+	  <input type="submit">
+	</form>
+
+  <script type='text/javascript' src="scripts.js"></script>
+  </body>
+
+
+</html>
