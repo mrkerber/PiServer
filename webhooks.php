@@ -3,7 +3,8 @@
 // Use in the “Post-Receive URLs” section of your GitHub repo.
 
 if ( $_POST['payload'] ) {
-shell_exec( ‘cd /var/www/Raspitory && git pull’ );
+shell_exec( ‘cd /var/www/html/Raspitory && git pull’ );
 }
 
 ?>
+Webhook Deployed
